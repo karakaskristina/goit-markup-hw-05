@@ -16,8 +16,7 @@ address{
 }
 
 .page-header{
-    width: 1440px;
-    height: 72px;
+
     color: #E7E9FC
 }
 
@@ -67,16 +66,15 @@ font-weight: 500;
 }
 .header-contacts:hover,
 .header-contacts:focus{
-color: #404BBF
+color: #404bbf
 }
 .hero{
-    width: 1440px;
-    height: 600px;
+
     background-color: #2e2f42;
 }
 .hero-title{
     font-family: inherit;
-font-weight: 700;
+    font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
@@ -127,11 +125,12 @@ font-weight: 700;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
-        text-transform: capitalize
+        text-transform: capitalize;
+        background-color: #F4F4FD
 }
 
 .team-subtitle{
-    font-weight: 500;
+        font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
@@ -139,7 +138,7 @@ font-weight: 700;
         background-color: #FFFFFF
 }
 .team-desc{
-    font-weight: 400;
+        font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
@@ -154,7 +153,7 @@ font-weight: 700;
     
 }
 .portfolio-subtitle{
-    font-weight: 500;
+        font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
@@ -168,8 +167,7 @@ font-weight: 700;
         color: #434455;
 }
 .page-footer{
-    width: 1440px;
-        height: 312px;
+    
         background-color: #2e2f42;;
 }
 .footer-text{
