@@ -91,7 +91,6 @@ color: #404bbf;
         color: #ffffff;
         cursor: pointer;
         background: #4d5ae5;
-        border-radius: 4px;
     
         text-align: c
             
@@ -127,6 +126,9 @@ color: #404bbf;
         background-color: #F4F4FD;
 
 }
+.team{
+    background-color: #F4F4FD
+}
 
 .team-subtitle{
         font-weight: 500;
@@ -134,7 +136,7 @@ color: #404bbf;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
-        background-color: #FFFFFF
+        background-color: #FFFFFF;
 }
 .team-desc{
         font-weight: 400;
