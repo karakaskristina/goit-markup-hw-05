@@ -80,6 +80,8 @@ font-weight: 700;
     line-height: 1.07143;
     letter-spacing: 0.02em;
     text-align: center;
+    margin-top: 188px;
+    margin-bottom: 292px;
     color: #fff;
 
 }
@@ -90,6 +92,7 @@ font-weight: 700;
             padding: 16px 32px;
             width: 169px;
             height: 56px;
+            text-align: center;
     
 }
 .hero-btn:hover,
