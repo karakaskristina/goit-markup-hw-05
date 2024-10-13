@@ -128,7 +128,7 @@ color: #404bbf;
 .hero{
 
     background-color: #2e2f42;
-    padding: 180px 0;
+    padding: 188px 0;
     display:block
 }
 .hero-title{
@@ -176,7 +176,7 @@ color: #404bbf;
 
 /*-------Benefits----*/
 .benefits{
-    padding: 188px 0;
+    padding: 120px 0;
 
 }
 .visually-hidden{
@@ -199,7 +199,7 @@ color: #404bbf;
     gap: 24px;
     
 }
-    .benefits-item{
+    .benefit-item{
         margin-right: 24px;
         width: 264px;
         width: calc((100% - 72px) / 4);
