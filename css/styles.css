@@ -197,12 +197,12 @@ color: #404bbf;
     padding-bottom: 120px;
     text-align: left;
     gap: 24px;
-    width: calc((100% - 72px)
+    width: calc(100%-72px) / 4;
 }
     .benefits-item{
         margin-right: 24px;
         width: 264px;
-         / 4);
+         
     }
 .benefits-subtitle{
     font-weight: 500;
@@ -292,7 +292,7 @@ color: #404bbf;
     text-align: center;
     color: #2e2f42;
     text-transform: capitalize;
-    background-color: #ffffff
+    background-color: #ffffff;
     margin-top: 120px;
     padding-top: 120px;
     margin-bottom: 72px;
