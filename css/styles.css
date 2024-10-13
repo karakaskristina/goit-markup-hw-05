@@ -27,7 +27,7 @@ img{
   /*-----------HERO-----------*/
 
 .container{
-    width: 1128px;
+    width: 1158px;
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
@@ -45,7 +45,7 @@ img{
 }
 .header-nav{
     display:flex;
-    aligne-items: center;
+    align-items: center;
 }
 .header-list{
     display: flex;
@@ -128,7 +128,7 @@ color: #404bbf;
 .hero{
 
     background-color: #2e2f42;
-    padding: 188px 0;
+    padding: 120px 0;
     display:block
 }
 .hero-title{
@@ -197,6 +197,7 @@ color: #404bbf;
     .benefits-item{
         margin-right: 24px;
         width: 264px;
+        width: calc((100% - 72px) / 4);
     }
 .benefits-subtitle{
     font-weight: 500;
@@ -204,6 +205,7 @@ color: #404bbf;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
+        margin-bottom: 8px;
 }
 .benefits-text{
     font-weight: 400;
@@ -214,6 +216,9 @@ color: #404bbf;
 }
 
 /*-------TEAM------*/
+.team{
+    padding: 120px 0;
+}
 .section-title-team{
         font-weight: 700;
         font-size: 36px;
@@ -226,6 +231,7 @@ color: #404bbf;
         background-color: #F4F4FD;
         margin-top: 120px;
         padding-top: 120px;
+        margin-bottom: 72px;
 
 }
 .team{
@@ -239,6 +245,8 @@ color: #404bbf;
         letter-spacing: 0.02em;
         color: #2e2f42;
         background-color: #FFFFFF;
+        text-align: center;
+        margin-bottom: 8px;
         
 }
 .team-list{
@@ -257,13 +265,16 @@ color: #404bbf;
         padding: 0px 0px 32px 0px;
      margin-bottom: 120px;
 }
-
+.card{
+    padding: 32px 0;
+}
 .team-desc{
         font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
+        text-align: center;
 }
 
 /*-------PHOTO-----*/
@@ -279,6 +290,7 @@ color: #404bbf;
     background-color: #ffffff
     margin-top: 120px;
     padding-top: 120px;
+    margin-bottom: 72px;
 }
 .foto{
     background-color: #F4F4FD
@@ -314,6 +326,7 @@ color: #404bbf;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
+        margin-bottom: 8px;
 }
 .portfolio-text{
     font-weight: 400;
