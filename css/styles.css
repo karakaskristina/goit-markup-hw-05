@@ -202,7 +202,7 @@ color: #404bbf;
     .benefit-item{
         margin-right: 24px;
         width: 264px;
-        width: calc((100% - 72px) / 4);
+        flex-basis: calc((100% - 3 * 24px) / 4)
     }
 .benefits-subtitle{
     font-weight: 500;
