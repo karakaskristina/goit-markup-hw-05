@@ -175,6 +175,10 @@ color: #404bbf;
 }
 
 /*-------Benefits----*/
+.benefits{
+    padding: 120px 0;
+
+}
 .visually-hidden{
     position:absolute;
     width: 1px;
@@ -193,11 +197,12 @@ color: #404bbf;
     padding-bottom: 120px;
     text-align: left;
     gap: 24px;
+    width: calc((100% - 72px)
 }
     .benefits-item{
         margin-right: 24px;
         width: 264px;
-        width: calc((100% - 72px) / 4);
+         / 4);
     }
 .benefits-subtitle{
     font-weight: 500;
