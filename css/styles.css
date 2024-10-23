@@ -43,7 +43,7 @@ p{
 .page-header{
 
     color: #E7E9FC;
-    display: flex;
+    
     border-bottom: 1px solid #E7E9FC;
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.8),
     0px 1px 1px rgba(46, 47, 66, 0.16),
@@ -72,6 +72,21 @@ p{
         text-transform: uppercase;
         color: #4d5ae5;
         
+}
+
+.header-nav{
+    display: flex;
+    align-items: center;
+}
+
+
+.header-container{
+    display: flex;
+    align-items: center;
+}
+.logo.header-logo{
+    position: relative;
+
 }
 .header-logo{
     padding: 24px 0;
@@ -104,16 +119,14 @@ font-weight: 500;
         letter-spacing: 0.02em;
         color: #404BBF;
         position: relative;
+         
+        transition: color 250ms cubic-bezier(0.4,0,0.2,1);
         
 }
-.nav-link.current{
-    position: relative
-}
 
-    .nav-link.current{
-        color: #404BBF;
-    }
-.nav-link ::after{
+
+  
+.nav-link.current::after{
     content: '';
     width: 100%;
     display: block;
@@ -126,7 +139,8 @@ font-weight: 500;
         
 }
 .nav-link:hover,
-.nav-link:focus{
+.nav-link:focus,
+.logo.header-logo{
     color: #404bbf;
 }
 .header-contacts{
@@ -408,13 +422,20 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.8),
         justify-content: center;
         flex-direction: column;
         gap: 8px;
-        transition:box-shadow 250ms cubic-bezier(0.4,0,0.2,1)
+        transition: box-shadow 250ms cubic-bezier(0.4,0,0.2,1);
          position: relative;
 }
 
+.portfolio-item:hover{
+
+}
 .portfolio-title{
     line-height: 1.11
     
+}
+.portfolio-box{
+    position:relative;
+    overflow: hidden;
 }
 .portfolio-subtitle{
         font-weight: 500;
@@ -452,9 +473,13 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.8),
         letter-spacing: 0.02em;
         color: #f4f4fd;
         width: 100%;
-        height: ;
-        top: 0;
-        left: 0
+        height: 100%;
+        top:0;
+        padding: 40px 32px;
+        transform: translateY(100%);
+        transition: transform 250ms cubic-bezier(0.4,0,0.2,1)
+
+       
 
 }
 .portfolio-cover-wrapper{
