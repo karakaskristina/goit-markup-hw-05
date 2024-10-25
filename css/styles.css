@@ -47,7 +47,7 @@ p{
     border-bottom: 1px solid #E7E9FC;
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.8),
     0px 1px 1px rgba(46, 47, 66, 0.16),
-    0px 1px 6px rgba(46, 47, 66, 0.8);
+    0px 1px 6px rgba(46, 47, 66, 0.08);
 
 }
 .header-nav{
@@ -217,7 +217,7 @@ color: #404bbf;
         min-width: 169px;
         height: 56px;
         text-decoration: none;
-        transition: background-color 250 ms cubic-bezier(0.4,0,0.2,1);
+        transition: background-color 250ms cubic-bezier(0.4,0,0.2,1);
     
 }
 .hero-btn:hover,
@@ -381,7 +381,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-icons-link:hover,
-.social-icons-list:focus{
+.social-icons-link:focus{
     background-color: #404bbf;
 }
 
