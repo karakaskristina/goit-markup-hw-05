@@ -430,7 +430,7 @@
         <div class="subscribe">
             <p class="subscribe-title">Subscribe</p>
             <form class="footer-form">
-                <label for="footer-email"></label>
+                <label for="footer-email" class="enter-email"></label>
                 <input type="email" name="footer-email" id="footer-email" class="footer-input" placeholder="Email">
                 <button type="submit" class="footer-btn">Subscribe 
                     <svg slass="subscribe-icon" width="24" height="24"><use href="./images/icons.svg#icon-Frame-3"></use></svg> </button>
@@ -485,31 +485,36 @@
 
         <div class="input-wrapper">
             <input type="email" name="user-email" id="user-email" class="modal-input">
-            <svg width="18" height="18" class="modal-icon">
+            <svg width="18" height="24" class="modal-icon">
                 <use href="./images/icons.svg#icon-email-black"> </use>
             </svg>
         </div>
 
-        <div class="modal-field">
+
+        <div class="modal-comment">
             <label for="user-comment">Comment</label>
             <textarea name="user-comment" id="user-comment" class="modal-textarea"
             placeholder="Text input">
         </textarea>
+        </div>
 
-        <div class="modal-field">
+        <div class="modal-checkbox">
   <input 
          type="checkbox" 
-         name="policy"
-         id="policy"
+         name="user-privacy"
+         id="user-privacy"
          class="modal-check .visually-hidden"
          value="true">
-<label for="policy" class="modal-check-text"><span>
-    <svg class="modal-check-icon" width="10" height="8">
+<label for="user-privacy" class="modal-check-text">I accept the terms and conditions of the Privacy Policy
+    <span class="modal-span"><svg class="modal-check-icon" width="10" height="8">
         <use href="./images/icons.svg#icon-click-icon">
-
+    
         </use>
     </svg>
-</span>I accept the terms and conditions of the Privacy Policy</label>
+</span>
+</label>
+    
+
             
         </div>
 
